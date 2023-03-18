@@ -1,0 +1,51 @@
+body {
+    line-height: 1.5;
+}
+.contact-header-bg{
+    position: relative;
+    height: 100vh;
+    background-color:#a2cafb;
+}
+.contact-header-bg-img{
+    padding: 10%;
+    
+}
+.contact-form{
+    position: relative;
+    width: 80%;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,0%);
+}
+
+input[type="submit" i] {
+    position: relative;
+    top: 10px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #353a8f;
+    color: #fff;
+}
+.form-caption{
+    font-weight: bold;
+}
+.custom-label{
+    margin-bottom: 0rem;
+}
+
+
+@media only screen and (min-width : 1326px) {
+    .contact-header-bg{
+        height: 82vh;
+     }
+}
+@media only screen and (max-width : 1024px) {
+    
+    .contact-header-bg-img{
+        padding: 30px;
+    }
+    .contact-header-bg{
+       height: auto;
+    }
+}

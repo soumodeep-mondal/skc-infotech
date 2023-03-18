@@ -1,0 +1,197 @@
+
+.services-text{
+    position: absolute;
+    left: 17%;
+    height: auto;
+    color: #fff;
+
+    font-family: Georgia;
+}
+.services-text #p1{
+    position: relative;
+    top: 30px;
+        letter-spacing: 7px;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.services-text #p2{
+    position: relative;
+    top: 30px;
+    font-size: 1.5rem;
+}
+
+
+.service-rates i{
+    font-size: 1.5rem;
+}
+@media only screen and (min-width : 768px) {
+    .services-text{
+        left: 6%;
+    }
+    .services-text #p1{
+        top: 0px;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .services-text #p2{
+        top: 5px;
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width : 425px) {
+    .services-text{
+        left: 5%;
+    }
+    .services-text #p1{
+        top:0px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .services-text #p2{
+        top: 0px;
+        font-size: 0.6rem;
+    }
+}
+@media only screen and (min-width : 1024px) {
+    .services-text{
+        left: 6%;
+    }
+    .services-text #p1{
+        top: 10px;
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+    .services-text #p2{
+        top: 10px;
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width : 1326px) {
+    .services-text{
+        left: 3%;
+
+    }
+    .services-text #p1{
+        position: relative;
+        top: 10px;
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+    .services-text #p2{
+        position: relative;
+        top: 10px;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (min-width : 1440px) {
+    .services-text{
+        left: 6.5%;
+    }
+    .services-text #p1{
+        position: relative;
+        top: 10px;
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+    .services-text #p2{
+        position: relative;
+        top: 10px;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (min-width : 1540px) {
+    .services-text{
+        left: 10%;
+    }
+    .services-text #p1{
+        position: relative;
+        top: 30px;
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+    .services-text #p2{
+        position: relative;
+        top: 30px;
+        font-size: 1.5rem;
+    }
+
+}
+@media only screen and (min-width : 1860px) {
+    .services-text{
+        left: 17%;
+    }
+    .services-text #p1{
+        position: relative;
+        top: 30px;
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+    .services-text #p2{
+        position: relative;
+        top: 30px;
+        font-size: 1.5rem;
+    }
+
+}
+
+
+.service-card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #f7f7f7;
+}
+.service-card img{
+padding: 50px;
+}
+.service-card i{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+[aria-expanded="true"] .bi-chevron-down, 
+[aria-expanded="false"] .bi-chevron-up {
+    display:none;
+}
+
+.service-rates-bar-color{
+    background-color: #4385d4;
+}
+.service-rates{
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#fff;
+}
+#our-service{
+    background-color: #f0f5fc;
+}
+#our-service .card .card-link{
+    position: relative;
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+#our-service .card .card-link .bi{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translate(-0%,-50%);
+    font-size: 1rem;
+    font-weight: 500;
+}
+[aria-expanded="true"] .bi-plus, 
+[aria-expanded="false"] .bi-dash {
+    display:none;
+}
+.terms{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

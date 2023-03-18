@@ -1,0 +1,195 @@
+body {
+    line-height: 1.5;
+}
+.header-title{
+    position: absolute;
+    top: 40%;
+    width: 30%;
+    left: 8%;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.header-title #title-box{
+    position: relative;
+    width: 50%;
+    font-size: 70px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+.header-title #title{
+    position: relative;
+    width: 30%;
+    left: 20%;
+    font-size: 70px;
+    text-align: center;
+    color: #000000;
+}
+
+/*======================================   */
+
+.happy-clients-color1{
+    background-color: #4d66c1;
+}
+.happy-clients-color2{
+    background-color: #9570ea;
+}
+.happy-clients-color3{
+    background-color: #4d66c1;
+}
+.happy-clients-color4{
+    background-color: #9570ea;
+
+}
+.happy-clients {
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card-img{
+   position: relative;
+   width: 70%;
+
+
+    left: 50%;
+    transform: translate(-50%,0);
+    
+}
+#img-round{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.card{
+    border: none;
+    border-radius: none;
+}
+
+.card-body{
+text-align: center;
+}
+
+.owl-carousel{
+    text-align: center;
+}
+.owl-prev{
+    left: -30px;
+}
+.owl-next{
+    right: -50px;
+}
+.owl-prev , .owl-next{
+    position: absolute;
+    top:80px;
+
+}
+.owl-prev span, .owl-next span{
+    font-size: 80px;
+    
+}
+.align{
+
+        padding-left: 60px;
+
+}
+
+@media only screen and (min-width : 1024px) {
+
+    .header-title{
+        position: absolute;
+        top: 28%;
+        width: 50%;
+
+        left: 4%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+    .header-title #title-box{
+        position: relative;
+        width: 40%;
+        font-size: 50px;
+        text-align: center;
+        background-color: black;
+        color: #fff;
+    }
+    .header-title #title{
+        position: relative;
+        width: 40%;
+        left: 20%;
+        font-size:50px;
+        text-align: center;
+        color: #000000;
+    }
+    
+}
+
+@media only screen and (min-width : 1440px) {
+
+}
+
+
+
+@media only screen and (max-width : 768px) {
+    .header-title{
+        position: absolute;
+        top: 28%;
+        width: 80%;
+        left: 4%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+    .header-title #title-box{
+        position: relative;
+        width: 30%;
+        font-size: 30px;
+        text-align: center;
+        background-color: black;
+        color: #fff;
+    }
+    .header-title #title{
+        position: relative;
+        width: 40%;
+        left: 5%;
+        font-size:30px;
+        text-align: center;
+        color: #000000;
+    }
+}
+
+@media only screen and (max-width : 425px) {
+    .header-title{
+        position: absolute;
+        top: 22%;
+        width: 80%;
+        left: 4%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+    .header-title #title-box{
+        position: relative;
+        width: 30%;
+        font-size: 30px;
+        text-align: center;
+        background-color: black;
+        color: #fff;
+    }
+    .header-title #title{
+        position: relative;
+        width: 40%;
+        left: 5%;
+        font-size:30px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .owl-prev{
+        left: -70px;
+    }
+    .owl-next{
+        right: -20px;
+    }
+}

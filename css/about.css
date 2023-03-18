@@ -1,0 +1,587 @@
+#border{
+    border: 2px solid rgb(59, 184, 21);
+}
+@font-face {
+	font-family: Georgia;
+	src: url(../fonts/Georgia.ttf);
+}
+/*=========================Header Part 1=================================*/
+
+.icon-bg{
+    background-color: #104469;
+}
+body {
+    line-height: 1.5;
+}
+.container .navbar-height{
+    height: 10px;
+   border: 2px solid rgb(59, 184, 21);
+}
+.about-text{
+    position: relative;
+    left: 40px;
+    color: #fff;
+    font-family: Georgia;
+}
+.about-text #p1{
+    position: relative;
+    top: 50px;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.about-text #p2{
+    position: relative;
+    top: 100px;
+    font-size: 1.5rem;
+}
+.about-text #p3{
+    position: relative;
+    top: 150px;
+    font-size: 2rem;
+}
+.about-text #download-btn{
+    position: relative;
+    top: 180px;
+    font-size: 1.2rem;
+    width: 45%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #08d1f2;
+    color: #000000;
+}
+.about-icon{
+    position: relative;
+    width: 70%;
+    left: 40%;
+    transform: translate(-50%,0);
+    padding-top: 20px;
+
+}
+
+/*=========================Header Part 2=================================*/
+
+.icon-bg2{
+    background-color: #359dd7;
+}
+.about-icon2{
+    position: relative;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding-top: 20px;
+}
+.body-text{
+    position: relative;
+    top: 10%;
+
+    left: 10px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body-text #p1{
+    position: relative;
+    top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.body-text #p2{
+    position: relative;
+    top: 40px;
+    font-size: 1rem;
+
+}
+.body-text #p3{
+    position: relative;
+    top: 60px;
+    font-size: 1rem;
+
+}
+.body-text #p4{
+    position: relative;
+    top: 80px;
+    font-size: 1rem;
+}
+/*========================Header Part 3==================================*/
+
+
+.icon-box{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    left: 0px;
+}
+
+.icon-box img{
+    width: 40%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+
+}
+.icon-box p{
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%,0);
+
+}
+.icon-box .p2{
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%,0);
+
+}
+.devider{
+border-left: 2px solid #000000;
+border-right: 2px solid #000000;
+}
+
+/*========================Header Part 4 ==================================*/
+
+.founder-img{
+    padding: 30px;
+}
+.founder-text{
+    position: relative;
+    top: 10%;
+}
+.founder-text p{
+    padding-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+.founder-text #p1{
+    padding-top: 0px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+}
+.founder-text #p2{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+hr.solid-border {
+    border-top: 3px solid #ffffff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 1024px) {
+
+
+/* ================================*/
+    .about-text #p1{
+        top: 10px;
+        font-size: 1.5rem;
+    }
+    .about-text #p2{
+        position: relative;
+        top: 15px;
+        font-size: 1.2rem;
+    }
+    .about-text #p3{
+        top: 30px;
+        font-size: 1.5rem;
+    }
+    .about-text #download-btn{
+        top: 50px;
+        width: 50%;
+        font-size: 1rem;
+    }
+/* ================================*/
+
+    .body-text{
+        top: 5%;
+    }
+    .body-text #p1{
+        top: 15px;
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+    .body-text #p2{
+        top: 20px;
+        font-size: 1rem;
+    
+    }
+    .body-text #p3{
+        top: 30px;
+        font-size: 1rem;
+    
+    }
+    .body-text #p4{
+        top: 50px;
+        font-size: 1rem;
+    }
+ /* ================================*/
+ 
+
+    .founder-text{
+        position: relative;
+        top: 5%;
+    }
+    .founder-text p{
+        padding-top: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+    }
+    .founder-text #p1{
+        padding-top: 0px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+    }
+    .founder-text #p2{
+        padding-top: 10px;
+        font-size: 16px;
+        color: #fff;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (min-width : 1326px) {
+
+    .about-text{
+        left: 4%;
+    }
+
+    .about-text #p1{
+        top: 10px;
+        font-size: 2.5rem;
+    }
+
+    .about-text #p2{
+        position: relative;
+        top: 30px;
+        font-size: 1.4rem;
+    }
+    .about-text #p3{
+        top: 50px;
+        font-size: 1.5rem;
+    }
+    .about-text #download-btn{
+
+        top:65px;
+        width: 50%;
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (min-width : 1440px) {
+    .about-text{
+        left: 12%;
+    }
+
+    .about-text #p1{
+        top: 10px;
+        font-size: 2.5rem;
+    }
+
+    .about-text #p2{
+        position: relative;
+        top: 30px;
+        font-size: 1.4rem;
+    }
+    .about-text #p3{
+        top: 50px;
+        font-size: 1.5rem;
+    }
+    .about-text #download-btn{
+
+        top: 100px;
+        width: 50%;
+        font-size: 1.3rem;
+    }
+
+/* ================================*/
+
+.body-text{
+    top: 15%;
+}
+.body-text #p1{
+    top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.body-text #p2{
+    top: 30px;
+    font-size: 1rem;
+
+}
+.body-text #p3{
+    top: 60px;
+    font-size: 1rem;
+
+}
+.body-text #p4{
+    top: 80px;
+    font-size: 1rem;
+}
+
+/* ================================*/
+
+
+.founder-img{
+    padding: 30px;
+}
+.founder-text{
+    position: relative;
+    top: 10%;
+}
+.founder-text p{
+    padding-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+.founder-text #p1{
+    padding-top: 0px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+}
+.founder-text #p2{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (max-width : 768px) {
+    .about-text{
+        width: 80%;
+        left: 5%;
+    }
+    .about-text #p1{
+        top: 10px;
+        font-size: 2rem;
+    }
+
+    .about-text #p2{
+        position: relative;
+        top: 30px;
+        font-size: 1.1rem;
+    }
+    .about-text #p3{
+        top: 50px;
+        font-size: 1.2rem;
+    }
+    .about-text #download-btn{
+        top: 70px;
+        width: 40%;
+        font-size: 1rem;
+    }
+    .about-icon{
+        top: 45px;
+        padding: 50px;
+    
+    }
+    .about-icon{
+        width: 70%;
+        left: 50%;
+        transform: translate(-50%,0);
+    
+    }
+    
+
+/* ================================*/
+
+.body-text{
+    top: -15%;
+}
+.body-text #p1{
+    top: 0px;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.body-text #p2{
+    top: 0px;
+    font-size: 1rem;
+
+}
+.body-text #p3{
+    top: 10px;
+    font-size: 1rem;
+
+}
+.body-text #p4{
+    top: 20px;
+    font-size: 1rem;
+}
+.about-icon2{
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding-top: 5px;
+
+}
+/* ================================*/
+ 
+ 
+.founder-img{
+    padding: 10px;
+}
+.founder-text{
+    position: relative;
+    top: -2%;
+}
+.founder-text p{
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+.founder-text #p1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.founder-text #p2{
+    font-size: 14px;
+    color: #fff;
+}
+hr.solid-border {
+    border-top: 1px solid #ffffff;
+  }
+}
+@media only screen and (max-width : 425px) {
+    .about-text{
+        width:98%;
+        left: 2%;
+    }
+    .about-text #p1{
+        top: 10px;
+        font-size: 1.8rem;
+    }
+
+    .about-text #p2{
+        position: relative;
+        top: 30px;
+        font-size: 1rem;
+    }
+    .about-text #p3{
+        top: 50px;
+        font-size: 1.2rem;
+    }
+    .about-text #download-btn{
+        top: 70px;
+        width: 60%;
+        font-size: 1rem;
+    }
+    .about-icon{
+        top: 45px;
+        padding: 50px;
+        width: 90%;
+        left: 45%;
+        transform: translate(-50%,0);
+    
+    }
+/* ================================*/
+
+.body-text{
+    top: -10%;
+}
+.body-text #p1{
+    top: 0px;
+    font-size: 1.8rem;
+    font-weight: bold;
+
+}
+.body-text #p2{
+    top: 0px;
+    font-size: 1rem;
+
+}
+.body-text #p3{
+    top: 10px;
+    width: 90%;
+    font-size: 0.8rem;
+
+}
+.body-text #p4{
+    top: 20px;
+    width: 90%;
+    font-size: 0.8rem;
+
+}
+.about-icon2{
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding-top: 5px;
+
+}
+
+
+}
+
+
+
+@media only screen and (min-width : 1540px) {
+    .about-text{
+        left: 16%;
+    }
+}
+@media only screen and (min-width : 1840px) {
+    .about-text{
+        left: 33%;
+    }
+}

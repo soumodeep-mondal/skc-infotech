@@ -1,0 +1,609 @@
+body {
+    line-height: 1.5;
+}
+.login-header-bg{
+    height: 80vh;
+    background-color: #aed3ec;
+}
+.login-header-bg-img{
+    padding: 30px;
+}
+.login-form-box{
+    position: relative;
+    width: 80%;
+    height: 50%;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    border-radius: 40px;
+    z-index: 5;
+    background-color: #fff;
+ 
+}
+.login-menu{
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%,30%);
+}
+.login-menu li a{
+    background-color: #fad23f;
+    padding: 10px 50px 10px 50px;
+    margin-left: 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.login-menu li a:hover{
+    background-color: #353a8f;
+    color: rgb(255, 255, 255);
+}
+.login-menu li a:active{
+    background-color: #353a8f;
+    color: rgb(255, 255, 255);
+}
+.login-menu li a:focus{
+    background-color: #353a8f;
+    color: rgb(255, 255, 255);
+}
+.login-form{
+    position: relative;
+    width: 80%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form{
+    position: relative;
+    width: 100%;
+    left: 2%;
+
+}
+#form-icon{
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+input[type="submit" i] {
+    position: relative;
+    top: 10px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #353a8f;
+    color: #fff;
+}
+.signup{
+    position: relative;
+    width: 60%;
+    font-size: 18px;
+    float: right;
+    top: -20px;
+    font-weight: bold;
+    text-align: right;
+
+}
+.team-banner-img{
+    position: relative;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%,0);
+    border: none;
+}
+.team-banner-row{
+    position: relative;
+    top: 50%;
+    height: 100%;
+    transform: translate(-0%,-50%);
+    border: none;
+}
+.team-banner{
+    background-color: #353a8f;
+    position: relative;
+    width: 80%;
+    height: 40%;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    border-radius: 40px;
+    z-index: 5;
+    overflow: hidden;
+}
+.team-banner h3{
+    font-size: 24px;
+    color: #fff;
+}   
+.team-banner p{
+    color: #fff;
+} 
+.employee{
+    position: relative;
+    top: 10%;
+}
+.employee #des{
+    position: relative;
+    top: 20%;
+}
+
+.employee-img{
+    top: 20px;
+    width: 100%;
+    height: 130px;
+    background-color: #0f99cc;
+}
+.employee-img img{
+    margin: auto;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #0f99cc;
+}
+
+
+
+@media only screen and (max-width : 2560px) {
+    .login-header-bg{
+        height: 85vh;
+    }
+}
+@media only screen and (max-width : 1840px) {
+    .login-header-bg{
+        height: 80vh;
+    }
+    .login-form-box{
+        position: relative;
+        width: 80%;
+        height: 55%;
+        top: 5%;
+        border-radius: 30px;
+     
+    }
+    .login-header-bg-img{
+        padding-top: 50px;
+    }
+    .login-menu{
+        transform: translate(-50%,80%);
+        width: 95%;
+    }
+    .login-menu li a{
+        padding: 2px 35px 5px 35px;
+        margin-left: 35px;
+        font-size: 16px;
+    }
+    #form-icon{
+        font-size: 16px;
+    }
+    .login-form{
+        position: relative;
+        width: 95%;
+        top: 45%;
+    }
+    .team-banner{
+        width: 80%;
+        top: 8%;
+        height: 33%;
+        border-radius: 30px;
+    }
+    .team-banner h3{
+        padding-top: 30px;
+        font-size:20px;
+        color: #fff;
+    }   
+    .employee{
+        position: relative;
+        top: 10%;
+    }
+    .employee-img{
+        top: 10px;
+        width: 100%;
+        height: 130px;
+        background-color: #0f99cc;
+    }
+    
+    
+}
+
+@media only screen and (max-width : 1540px) {
+    .login-header-bg{
+        height: 90vh;
+    }
+    .login-form-box{
+        position: relative;
+        width: 80%;
+        height: 50%;
+        top: 2%;
+        border-radius: 30px;
+     
+    }
+    .login-header-bg-img{
+        padding-top: 50px;
+    }
+    .login-menu{
+        transform: translate(-50%,40%);
+        width: 95%;
+    }
+    .login-menu li a{
+        padding: 5px 35px 5px 35px;
+        margin-left: 40px;
+        font-size: 16px;
+    }
+    #form-icon{
+        font-size: 16px;
+    }
+    .login-form{
+        position: relative;
+        width: 95%;
+        top: 48%;
+    }
+    .signup{
+        width: 60%;
+        font-size: 16px;
+        top: -18px;
+    }
+    input[type="submit" i] {
+        position: relative;
+        top: 10px;
+        width: 100px;
+        padding: 2px;
+    }
+    .team-banner{
+        width: 80%;
+        top: 5%;
+        height: 33%;
+        border-radius: 30px;
+    }
+    .team-banner-img{
+        position: absolute;
+        width: 70%;
+        top: 10%;
+        height: 90%;
+    }
+    .team-banner h3{
+        padding-top: 20px;
+        font-size:20px;
+        color: #fff;
+    }   
+    .employee{
+        position: relative;
+        top: 10%;
+    }
+    .employee-img{
+        top: 10px;
+        width: 100%;
+        height: 130px;
+        background-color: #0f99cc;
+    }
+    
+    
+}
+@media only screen and (max-width : 1326px) {
+    .login-header-bg{
+        height: 90vh;
+    }
+    .login-form-box{
+        position: relative;
+        width: 80%;
+        height: 50%;
+        top: 2%;
+        border-radius: 30px;
+     
+    }
+    .login-header-bg-img{
+        padding-top: 50px;
+    }
+    .login-menu{
+        transform: translate(-50%,20%);
+        width: 95%;
+    }
+    .login-menu li a{
+        padding: 5px 35px 5px 35px;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    #form-icon{
+        font-size: 16px;
+    }
+    .login-form{
+        position: relative;
+        width: 95%;
+        padding-top: 2%;
+        top: 45%;
+    }
+    .signup{
+        width: 60%;
+        font-size: 16px;
+        top: -15px;
+    }
+    input[type="submit" i] {
+        position: relative;
+        top: 10px;
+        width: 100px;
+        padding: 2px;
+    }
+    .team-banner{
+        width: 80%;
+        top: 5%;
+        height: 33%;
+        border-radius: 30px;
+    }
+    .team-banner-img{
+        position: absolute;
+        width: 75%;
+        top: 10%;
+        height: 90%;
+    }
+    .team-banner h3{
+        padding-top: 10px;
+        font-size:20px;
+        color: #fff;
+    }   
+    .employee{
+        position: relative;
+        top: 10%;
+    }
+    .employee-img{
+        top: 5px;
+        width: 100%;
+        height: 130px;
+        background-color: #0f99cc;
+    }
+    .employee #des{
+        top: 0%;
+    }
+    
+    
+}
+@media only screen and (max-width : 1024px) {
+        .login-header-bg{
+        height: 80vh;
+    }
+    .login-form-box{
+        position: relative;
+        width: 100%;
+        height: 60%;
+        top: 2%;
+        border-radius: 20px;
+    }
+    .login-menu{
+        transform: translate(-50%,30%);
+        width: 95%;
+    }
+    .login-menu li a{
+        padding: 5px 25px 5px 25px;
+        margin-left: 40px;
+        font-size: 14px;
+    }
+    #form-icon{
+        font-size: 16px;
+    }
+    .login-header-bg-img{
+        padding-top: 80px;
+    }
+    .login-form{
+        position: relative;
+        width: 95%;
+        top: 48%;
+    }
+    .signup{
+        width: 60%;
+        font-size: 16px;
+        top: -15px;
+    }
+    input[type="submit" i] {
+        position: relative;
+        top: 15px;
+        width: 100px;
+        padding: 2px;
+    }
+    .team-banner-img{
+        position: absolute;
+        width: 75%;
+        top: 2%;
+        height: 80%;
+    }
+    .team-banner{
+        width: 100%;
+        top: 4%;
+        height: 33%;
+        border-radius: 20px;
+    }
+    .team-banner h3{
+        padding-top: 20px;
+        font-size:16px;
+        color: #fff;
+    }   
+    .team-banner p{
+        font-size:14px;
+        color: #fff;
+    } 
+    
+    .employee{
+        position: relative;
+        top: 10%;
+    }
+    .employee-img{
+        top: 10px;
+        width: 100%;
+        height: 130px;
+        background-color: #0f99cc;
+    }
+        .employee #des{
+        top: 0%;
+    }
+}
+
+
+@media only screen and (max-width : 768px) {
+        .login-header-bg{
+        height: 180vh;
+    }
+    .login-form-box{
+        position: relative;
+        width: 100%;
+        height: 60%;
+        top: -15%;
+        left: 50%;
+        transform: translate(-50%,0%);
+        border-radius: 10px;
+     
+    }
+    .login-header-bg-img{
+        padding: 100px;
+    }
+    .login-menu{
+        transform: translate(-50%,40%);
+    }
+   
+    .login-menu li a{
+        padding: 2px 50px 5px 50px;
+        margin-left:55px;
+        font-size: 16px;
+    }
+    #form-icon{
+        font-size: 16px;
+    }
+    .login-form{
+        position: relative;
+        width: 95%;
+        top: 47%;
+    }
+    .signup{
+        width: 60%;
+        font-size: 16px;
+        top: -15px;
+    }
+    input[type="submit" i] {
+        position: relative;
+        top: 12px;
+        width: 100px;
+        padding: 2px;
+    }
+        .team-banner-img{
+        position: absolute;
+        width: 70%;
+        top: 10%;
+        height: 80%;
+    }
+    .team-banner{
+        width: 100%;
+        height: 50%;
+        top: -12%;
+        border-radius: 10px;
+
+    }
+
+    .team-banner-img{
+        position: absolute;
+        width: 90%;
+        top: 20%;
+        height: 80%;
+    }
+    .team-banner h3{
+        padding-top: 30px;
+        font-size: 24px;
+        color: #fff;
+    }   
+    .team-banner p{
+        color: #fff;
+        font-size: 18px;
+    } 
+    .employee{
+        position: relative;
+        top: 10%;
+    }
+    
+    .employee-img{
+        top: 10px;
+        width: 100%;
+        height: 130px;
+        background-color: #0f99cc;
+    }
+    .employee #des{
+        top: 15%;
+    }
+}
+
+
+@media only screen and (max-width : 425px) {
+    .login-header-bg{
+        height: 100vh;
+    }
+    .login-form-box{
+        position: relative;
+        width: 100%;
+        height: 68%;
+        top: -5%;
+        left: 50%;
+        transform: translate(-50%,0%);
+        border-radius: 10px;
+     
+    }
+    .login-header-bg-img{
+        padding: 50px;
+        padding-top: 5px;
+    }
+    .login-menu{
+        transform: translate(-50%,20%);
+    }
+    .login-menu li a{
+        padding: 4px 20px 4px 20px;
+        margin-left:18px;
+        font-size: 16px;
+    }
+    #form-icon{
+        font-size: 16px;
+    }
+    .login-form{
+        position: relative;
+        width: 95%;
+        top: 45%;
+    }
+    .signup{
+        width: 60%;
+        font-size: 16px;
+        top: -10px;
+    }
+    input[type="submit" i] {
+        position: relative;
+        top: 20px;
+        width: 100px;
+        padding: 2px;
+    }
+    .team-banner{
+        width: 100%;
+        height: 30%;
+        top: -2%;
+        border-radius: 10px;
+
+    }
+    .team-banner-img{
+        position: absolute;
+        width: 90%;
+        top: 10%;
+        height: 80%;
+    }
+    .team-banner h3{
+        padding-top: 10px;
+        font-size: 14px;
+        color: #fff;
+    }   
+    .team-banner p{
+        color: #fff;
+        font-size: 12px;
+    } 
+    .employee{
+        position: relative;
+        top: 10%;
+    }
+    .employee #des{
+        position: relative;
+        top: 0%;
+    }
+    .employee-img{
+        top: 10px;
+        width: 100%;
+        height: 130px;
+        background-color: #0f99cc;
+    }
+    
+}
